@@ -16,36 +16,14 @@
   .social-icons .instagram:hover,
   .social-icons .linked-in:hover {
     color: white;
-    /* background-color: white; */
-    border: 2px solid red;
   }
 
-  /* .social-icons .facebook:hover .icon:hover,
-  .social-icons .twitter .icon:hover,
-  .social-icons .instagram .icon:hover,
-  .social-icons .linked-in .icon:hover {
-    background-color: white;
-  } */
-
-  .social-icons .icon {
+  .social-icons .facebook:hover .icon,
+  .social-icons .twitter:hover .icon,
+  .social-icons .instagram:hover .icon,
+  .social-icons .linked-in:hover .icon {
     background-color: white;
   }
-
-  /* .social-icons .facebook:hover,
-  .social-icons .twitter:hover,
-  .social-icons .instagram:hover,
-  .social-icons .linked-in:hover {
-    color: white;
-    background-color: black;
-  }
-
-  .social-icons .facebook:hover i,
-  .social-icons .twitter:hover i,
-  .social-icons .instagram:hover i,
-  .social-icons .linked-in:hover i {
-    color: black;
-    background-color: white;
-  } */
 }
 
 /* 👇👇👇 Add the media rule and the styles that are common within the TABLET and MOBILE views beneath 👇👇👇 */
