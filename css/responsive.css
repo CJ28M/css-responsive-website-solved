@@ -24,6 +24,33 @@
   .social-icons .linked-in:hover .icon {
     background-color: white;
   }
+
+  .logo-icon span {
+    font-size: 24px;
+  }
+
+  .top-navigation a {
+    font-size: 18px;
+  }
+
+  .top-navigation ul li a.active {
+    color: #737373;
+  }
+
+  .top-navigation ul:hover li:hover a:hover {
+    color: #434343;
+  }
+
+  .teammate-social-icons .facebook:hover,
+  .twitter:hover,
+  .linkedin:hover {
+    background-color: #969696;
+  }
+
+  .email ul:hover li:hover a:hover {
+    text-decoration: underline;
+    color: white;
+  }
 }
 
 /* 👇👇👇 Add the media rule and the styles that are common within the TABLET and MOBILE views beneath 👇👇👇 */
@@ -36,7 +63,7 @@
 
   .content.header-content {
     position: fixed;
-    background-color: white;
+    background-color: #ffffff;
     width: 100%;
     box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.15);
   }
@@ -109,6 +136,18 @@
     gap: 90px;
     flex-wrap: wrap;
     justify-content: space-evenly;
+  }
+
+  .teammate-social-icons div {
+    background-color: #969696;
+  }
+
+  .phones ul li a {
+    color: #ffffff;
+  }
+
+  .email ul li a {
+    color: #ffffff;
   }
 }
 
@@ -203,13 +242,13 @@
   .social-icons {
     display: flex;
     flex-direction: column;
-    color: white;
+    color: #ffffff;
     font-weight: bold;
     align-items: center;
   }
 
   footer .social-icons .icon {
-    background-color: white;
+    background-color: #ffffff;
   }
 
   .footer-contacts {
